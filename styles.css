@@ -1,0 +1,9 @@
+/* This rule sets the color of all h1 elements to red. */
+h1 {
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
