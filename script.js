@@ -1,11 +1,13 @@
-console.log("JavaScript file loaded successfully!");
-// A variable for text (a "string")
-let firstName = "Alice"; 
-
-// A variable for a number
-let score = 95; 
-
-// A constant variable (it can't change later)
-const PI = 3.14;
-console.log("The user's name is: " + firstName);
-console.log("The score is: " + score);
+﻿document.addEventListener('DOMContentLoaded', function () {
+  // Smooth scroll for in-page anchors
+  document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      var targetID = this.getAttribute('href').slice(1);
+      var target = document.gete=ElementById(targetId);
+      if (target) {
+       e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start'})
+      }
+    });
+  });  
+});

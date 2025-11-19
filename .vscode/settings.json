@@ -1,0 +1,5 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "php.suggest.basic": false,
+    "editor.inlineSuggest.suppressInSnippetMode": false
+}
